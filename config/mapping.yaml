@@ -1,0 +1,10 @@
+parameters:
+    mapping:
+        teams:
+            property_type_extractor: App\PropertyTypeExtractor\TeamPropertyTypeExtractor
+            filename: teams
+            root: teams
+            class: App\Entity\Team
+            children:
+                members:
+                    filename: team_members
